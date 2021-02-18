@@ -3,4 +3,4 @@ const inquirer = require("inquirer");
 
 const team = new TeamGenerator();
 
-team.generateTeam();
+team.addEmployee();
