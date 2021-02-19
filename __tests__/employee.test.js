@@ -55,6 +55,6 @@ test("Checking if getRole() returns the users role choice from list", () => {
     const choice = "Employee";
     const user = new Employee("jimmy", 12345, "jimmy@domain.com");
     expect(user.getRole()).toBe("Employee");
-})
+});
 
 
